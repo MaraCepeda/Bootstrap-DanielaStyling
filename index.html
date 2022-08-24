@@ -4,47 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- linkeo css -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Daniela-Styling</title>
 </head>
 <body>
-    <header class="encabezado">
-        <nav>
-            <a  class="daniSty" href="./index.html"><h1 class="dani">Daniela Styling</h1></a>
-
-            <ul>
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./pages/sobremi.html">SOBRE MI</a></li>
-                <li><a href="./pages/servicios.html">SERVICIOS</a></li>
-                <li><a href="./pages/moda.html">MODA</a></li>
-                <li><a href="./pages/contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-light encabezado">
+        <div class="container-fluid d-lg-flex flex-lg-column">
+          <div class="circulo">  
+            <a class="navbar-brand logo" href="./index.html">Daniela Styling</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/sobremi.html">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/moda.html">Moda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>  
+          </div>
+        </div>
+      </nav>
     <main>
-        <article class="presentacion">
-            <section>
-            <img class="imagen1" src="./img/dibujodani-home.jpg" alt="dibujo de la asesora">
-            <img class="imagen2" src="./img/dani-home.jpg" alt="fotografia de la asesora">
-            <img class="imagen3" src="./img/frasesa-home.jpg" alt="si te critica pero se viste mal no cuenta">
+        <article class="intro container text-center">
+            <section class="carouselBorde ms-5 row">
+                <div id="carouselHome" class="carousel slide col" data-bs-ride="carousel">
+                 <div class="carousel-inner">
+                    <div class="carousel-item active foto-home">
+                        <img src="./img/dibujodani-home.jpg" class="d-block w-25 border border-white border border-5"  alt="dibujo de la asesora">
+                     </div>
+                     <div class="carousel-item foto-home">
+                     <img src="./img/dani-home.jpg" class="d-block w-25 border border-white border border-5"  alt="fotografia de la asesora">
+                    </div>
+                    <div class="carousel-item foto-home">
+                      <img src="/img/frasesa-home.jpg" class="d-block w-25 border border-white border border-5"  alt="si te critica pero se viste mal no cuenta">
+                     </div>
+                    </div>
+                 </div>
             </section>
-            <section>
-                <h2 class="daniBus">Daniela Bustamante</h2>
-                <h3 class="asesora">Asesora de imagen</h3>
-                <p class="textoIntro">Te propongo momentos de aprendizaje, diversión e instropeccion para potenciar tu imagen y disfrutar de vos</p>
+            <section class="col">
+                <h2>Daniela Bustamante</h2>
+                <h3>Asesora de imagen</h3>
+                <p>Te propongo momentos de aprendizaje, diversión e instropeccion para potenciar tu imagen y disfrutar de vos</p>
             </section>
         </article>
-        <article class="encuesta">
-                <div class="cuestionario">
-                    <a class="cuestionario1" href="./pages/cuestionario.html"><h2>CUESTIONARIO</h2></a>
+        <article>
+                <div>
+                    <a href="./pages/cuestionario.html"><h2>CUESTIONARIO</h2></a>
                 </div>    
-                <h3 class="queServicio">¿Que servicio estoy buscando?</h3>
-                <p class="responde">Respondiendo este cuestionario podre evaluar de forma personal que servicio es para vos.</p>
+                <h3>¿Que servicio estoy buscando?</h3>
+                <p>Respondiendo este cuestionario podre evaluar de forma personal que servicio es para vos.</p>
         </article>
     </main>
     <footer>
-        <p class="contacto">Contacto: 1158054796</p>
-        <p class="instagram">ig: ditta_samana</p>
+        <p>Contacto: 1158054796</p>
+        <p>ig: ditta_samana</p>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
