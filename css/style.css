@@ -63,9 +63,123 @@ body{
     display: flex !important;
     justify-content: center !important;
     color: #73351F;
+    font-size: 3em;
 }
 
 footer{
     color: #f6f0f0;
     background-color: #73351F;
+    font-size: x-large;
+}
+.celular{
+    display: flex;
+    justify-content: center;
+}
+
+.instagram{
+    display: flex;
+    justify-content: center;
+}
+
+.seccionContacto{
+    background-image: url("../img/torreeiffel.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.contactoBox{
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    background-color: #141313c6;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.formulario{
+    font-size: 1em;
+    color: #fdf4f4;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.servicios{
+    background-color: #232426;
+}
+
+.card{
+    background-color: rgba(244, 236, 236, 0.796);
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+}
+
+.introduccion{
+    display: flex;
+    align-content: center;
+}
+
+.intro2{
+    background-image: url(../img/imagenfondo-home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.imgHome{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.664), 0 6px 20px 0 rgba(0, 0, 0, 0.511);
+}
+
+
+
+/* .imgHome:hover{
+    transform: scale(1.1);
+} */
+
+.tituloSobreMi{
+    color: #f6f0f0c7;
+    font-size: 3em;
+}
+
+.textoSobreMi{
+    font-size: 1.5em;
+    color: #f6f0f0c7;
+}
+
+.fondoCardSobreMi{
+    background-color: #474141;
+}
+
+.dani-sobremi{
+    width: 30em;
+}
+
+.dani-sobremi:hover{
+    transform: scale(0.8);
+}
+
+.card-body{
+    height: 10em;
+}
+
+.tarjeta-frase{
+    font-size: 2em;
+}
+
+.imgModa{
+    margin: 0 auto;
+}
+
+.mainModa{
+    height: 2650px;
 }

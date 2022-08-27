@@ -1,70 +1,178 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- linkeo css -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Servicios</title>
 </head>
+
 <body>
+    <!-- header -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-light encabezado">
-        <div class="container-fluid d-lg-flex flex-lg-column">
-          <div class="circulo">  
-            <a class="navbar-brand logo" href="./index.html">Daniela Styling</a>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/sobremi.html">Sobre mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/moda.html">Moda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-              </li>
-            </ul>  
-          </div>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg bg-light encabezado">
+            <div class="container-fluid d-lg-flex flex-lg-column">
+                <div class="circulo">
+                    <a class="navbar-brand logo" href="../index.html">Daniela Styling</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/sobremi.html">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/moda.html">Moda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main class="seccionServicios">
-        <section>
-            <img class="servicio1" src="../img/asesoramientoexpress-servicios.jpg" alt="dibujo de una chica con vestido y zapatos">
-            <div class="express">Asesoramiento express</div>
-        </section>
-        <section>
-            <img class="servicio2" src="../img/detoxdeguardarropa-servicios.jpg" alt="dibujo de tres chicas con vestidos y zapatos">
-            <div class="detox">Detox de guardarropa</div>
-        </section>
-        <section>
-            <img class="servicio3" src="../img/asesoramientointegral-servicios.jpg" alt="dibujo de una chica de costado con vestido de encaje">
-            <div class="integral">Asesoramiento de imagen integral</div>
-        </section>
-        <section>
-            <img class="servicio4" src="../img/personalshopper-servicios.jpg" alt="dibujo de dos chicas con bolsas de compras">
-            <div class="shopper">Personal shopper</div>
-        </section>
+    <!-- main -->
+    <main class="servicios container-fluid">
+        <div class="row">
+            <!-- card asesoramiento express -->
+            <div class="col tarjeta">
+                <div class="card ms-5 mt-5 mb-5" style="width: 18rem;">
+                    <img src="../img/asesoramientoexpress-servicios.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asesoramiento express</h5>
+                        <button class="btn btn-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExpress" aria-expanded="false" aria-controls="collapseExpress">
+                            Descripcion
+                        </button>
+                        </p>
+                        <div class="collapse" id="collapseExpress">
+                            <div class="card card-body">
+                                SILUETA Y PRENDAS IDEALES: analizamos las líneas y las formas de tu cuerpo, a fin de
+                                establecer
+                                las prendas que te dan más seguridad y te representan. Las elegimos pensando en los
+                                cortes,
+                                caídas, texturas, largos y telas.
+                                VISAGISMO: estudiamos las formas de tu rostro con el objetivo de conocer los accesorios,
+                                cortes
+                                de pelo, peinados, make up, escotes y lentes que más te potencian.
+                                COLORIMETRÍA: descubrís los colores que más te favorecen y cómo combinarlos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card detox de guardarropa -->
+            <div class="col tarjeta">
+                <div class="card ms-5 mt-5 mb-5" style="width: 18rem;">
+                    <img src="../img/detoxdeguardarropa-servicios.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Detox de guardarropa</h5>
+                        <button class="btn btn-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDetox" aria-expanded="false" aria-controls="collapseDetox">
+                            Descripcion
+                        </button>
+                        <div class="collapse" id="collapseDetox">
+                            <div class="card card-body">
+                                ¿En qué consiste?
+                                Hacemos un detox de tu closet, dejando sólo las prendas que respondan a tu estilo, y
+                                definimos una lista de prendas básicas que puedan llegar a hacerte falta.
+                                ¿Para qué te sirve?
+                                Ganás espacio, lográs un guardarropa funcional y práctico, coherente con tu estilo.
+                                Así mismo, con la lista de prendas básicas, harás compras inteligentes evitando
+                                malgastar tu
+                                dinero.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card asesoramiento integral -->
+        <div class="row">
+            <div class="col tarjeta">
+                <div class="card ms-5 mt-5 mb-5" style="width: 18rem;">
+                    <img src="../img/asesoramientointegral-servicios.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asesoramiento de imagen integral</h5>
+                        <button class="btn btn-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseIntegral" aria-expanded="false" aria-controls="collapseIntegral">
+                            Descripcion
+                        </button>
+                        <div class="collapse" id="collapseIntegral">
+                            <div class="card card-body">
+                                ¿En qué consiste?
+
+                                → SILUETA Y PRENDAS IDEALES: analizamos las líneas y las formas de tu cuerpo, a fin de
+                                establecer las prendas que te dan más seguridad y te representan. Las elegimos pensando
+                                en
+                                los cortes, caídas, texturas, largos y telas.
+
+                                → VISAGISMO: estudiamos las formas de tu rostro con el objetivo de conocer los
+                                accesorios,
+                                cortes de pelo, peinados, escotes, make up y lentes que más te potencian.
+
+                                → COLORIMETRÍA: descubrís los colores que más te favorecen y cómo combinarlos.
+
+                                → ESTILO PERSONAL: definimos los aspectos distintivos de tu personalidad y los bajamos a
+                                tu
+                                imagen, logrando así una identidad visual. Trabajaremos para que tu imagen se convierta
+                                en
+                                un canal directo de expresión y comunicación.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card personal shopper -->
+            <div class="col tarjeta">
+                <div class="card ms-5 mt-5 mb-5" style="width: 18rem;">
+                    <img src="../img/personalshopper-servicios.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Personal shopper</h5>
+                        <button class="btn btn-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseShopper" aria-expanded="false" aria-controls="collapseShopper">
+                            Descripcion
+                        </button>
+                        <div class="collapse" id="collapseShopper">
+                            <div class="card card-body">
+                                El objetivo de este servicio es que tus compras sean “INTELIGENTES”.
+
+                                De este modo te ayudo a ahorrar en DINERO y TIEMPO.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>Contacto: 1158054796</p>
-        <p>ig: ditta_samana</p>
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="row">
+            <p class="col celular">Contacto: 1158054796</p>
+            <p class="col instagram">ig: ditta_samana</p>
+        </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
