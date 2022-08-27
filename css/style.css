@@ -64,3 +64,8 @@ body{
     justify-content: center !important;
     color: #73351F;
 }
+
+footer{
+    color: #f6f0f0;
+    background-color: #73351F;
+}
