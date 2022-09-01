@@ -1,0 +1,22 @@
+.intro{
+    background-color: $background-main;
+    width: 100% !important;
+
+    .carouselBorde{
+        padding-top: 30px !important;
+
+        .imgHome{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.664), 0 6px 20px 0 rgba(0, 0, 0, 0.511);
+        }
+    }
+}
+
+
+
+.intro2{
+    background-image: url(../img/imagenfondo-home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
