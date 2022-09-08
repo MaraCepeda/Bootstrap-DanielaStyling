@@ -3,7 +3,7 @@ header{
         width: 10rem;
         height: 5rem;
         border-radius: 50%;
-        background: $background-header;
+        background-color: $background-header !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -22,7 +22,7 @@ header{
 
     .item{
         &:hover{
-            color: $color-header;
+            color: $font-black;
             transform: scale(1.1);
         }
     }

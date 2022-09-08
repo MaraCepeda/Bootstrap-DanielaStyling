@@ -1,3 +1,5 @@
+// main index
+
 .intro{
     background-color: $background-main;
     width: 100% !important;
@@ -20,3 +22,38 @@
     height: 1000px;
 }
 
+// main sobre mi
+
+.biografia{
+    background-color: #474141;
+}
+
+// main cuestionario
+
+.divUno {
+    @extend %divsCuestionario;
+    background-color: #232426;
+}
+
+.divDos {
+    @extend %divsCuestionario;
+    background-color: #8C796D;
+}
+
+// main moda
+
+.titulo-verano{
+@include titulos($borderColor #232426, $backgroundColor #73351F);
+}
+
+.titulo-invierno{
+
+}
+
+.titulo-fiesta{
+
+}
+
+.titulo-emily{
+
+}

@@ -3,7 +3,7 @@ header .circulo {
   width: 10rem;
   height: 5rem;
   border-radius: 50%;
-  background: #D9C2AD;
+  background-color: #D9C2AD !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,6 +41,18 @@ header .item:hover {
   height: 1000px;
 }
 
+.biografia {
+  background-color: #474141;
+}
+
+.divUno {
+  background-color: #232426;
+}
+
+.divDos {
+  background-color: #8C796D;
+}
+
 footer {
   color: #f6f0f0;
   background-color: #73351F;
@@ -53,6 +65,13 @@ footer .celular {
 footer .instagram {
   display: flex;
   justify-content: center;
+}
+
+.divUno, .divDos {
+  color: #f6f0f0;
+  font-size: 20px;
+  text-align: center;
+  border-style: solid;
 }
 
 * {

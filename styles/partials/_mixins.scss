@@ -1,0 +1,6 @@
+@mixin titulos($borderColor, $backgroundColor){
+    padding: 10px;
+    text-align: center;
+    border-style: 03px solid $borderColor;
+    background-color: $backgroundColor;
+}
