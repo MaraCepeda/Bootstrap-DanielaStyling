@@ -12,6 +12,8 @@
 body{
     font-family: 'Ibarra Real Nova', serif;
 }
+ 
+                        /* header */
 
 .circulo{
     width: 10rem !important;
@@ -39,6 +41,8 @@ body{
     z-index: 999;
 } */
 
+                        /* main index */
+
 .intro{
     background-color: #8C796D;
     width: 100% !important;
@@ -48,10 +52,33 @@ body{
     padding-top: 30px !important;
 }
 
+.introduccion{
+    display: flex;
+    align-content: center;
+}
+
+.intro2{
+    background-image: url(../img/imagenfondo-home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.imgHome{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.664), 0 6px 20px 0 rgba(0, 0, 0, 0.511);
+}
+
+/* .imgHome:hover{
+    transform: scale(1.1);
+} */
+
+
 /* .foto-home{
     border: 5px solid #f9f2f2 !important;
 
 } */
+
+                        /* main moda */
 
 .mainModa{
     background-color: rgb(151, 141, 141);
@@ -65,6 +92,16 @@ body{
     color: #73351F;
     font-size: 3em;
 }
+
+.imgModa{
+    margin: 0 auto;
+}
+
+.mainModa{
+    height: 2650px;
+}
+
+                    /* footer */
 
 footer{
     color: #f6f0f0;
@@ -80,6 +117,8 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+                        /* main contacto */
 
 .seccionContacto{
     background-image: url("../img/torreeiffel.jpg");
@@ -111,6 +150,8 @@ footer{
     transform: translate(-50%, -50%);
 }
 
+                        /* main servicios */
+
 .servicios{
     background-color: #232426;
 }
@@ -124,28 +165,7 @@ footer{
     justify-content: center;
 }
 
-.introduccion{
-    display: flex;
-    align-content: center;
-}
-
-.intro2{
-    background-image: url(../img/imagenfondo-home.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 1000px;
-}
-
-.imgHome{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.664), 0 6px 20px 0 rgba(0, 0, 0, 0.511);
-}
-
-
-
-/* .imgHome:hover{
-    transform: scale(1.1);
-} */
-
+                        /* main sobre mi */
 .tituloSobreMi{
     color: #f6f0f0c7;
     font-size: 3em;
@@ -176,10 +196,3 @@ footer{
     font-size: 2em;
 }
 
-.imgModa{
-    margin: 0 auto;
-}
-
-.mainModa{
-    height: 2650px;
-}

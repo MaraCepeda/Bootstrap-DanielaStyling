@@ -26,6 +26,7 @@ header .item:hover {
 .intro {
   background-color: #8C796D;
   width: 100% !important;
+  margin: 0 !important;
 }
 .intro .carouselBorde {
   padding-top: 30px !important;
@@ -34,11 +35,37 @@ header .item:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.664), 0 6px 20px 0 rgba(0, 0, 0, 0.511);
 }
 
+.texto-home {
+  color: #f6f0f0;
+}
+.texto-home .titulo-home {
+  margin-bottom: 2em;
+}
+.texto-home .titulo-home:hover {
+  transform: scale(1.1);
+}
+.texto-home .home-texto {
+  font-size: 2.5em;
+}
+.texto-home .home-texto:hover {
+  transform: scale(1.1);
+}
+
 .intro2 {
   background-image: url(../img/imagenfondo-home.jpg);
   background-position: center;
   background-size: cover;
-  height: 1000px;
+  height: 800px;
+  background-attachment: fixed;
+}
+.intro2 .cuestionario {
+  color: #f6f0f0;
+}
+.intro2 .cuestionario .titulo-cuestionario {
+  font-size: 4em;
+}
+.intro2 .cuestionario .texto-cuestionario {
+  font-size: 2.5em;
 }
 
 .biografia {
@@ -51,6 +78,39 @@ header .item:hover {
 
 .divDos {
   background-color: #8C796D;
+}
+
+.servicios {
+  background-color: #232426;
+}
+.servicios .tarjeta {
+  display: flex;
+  justify-content: center;
+}
+.servicios .tarjeta .card {
+  background-color: #8C796D;
+}
+.servicios .tarjeta:hover {
+  transform: scale(1.1);
+}
+
+.mainModa {
+  background-color: #232426;
+}
+.mainModa .titulos {
+  display: flex !important;
+  justify-content: center !important;
+  color: #f6f0f0;
+  font-size: 3em;
+}
+.mainModa .carousel-item {
+  height: 700px;
+}
+.mainModa .carousel-item .imgModa {
+  margin: 0 auto;
+}
+.mainModa .carousel-item:hover {
+  transform: scale(1.25);
 }
 
 footer {
@@ -71,7 +131,6 @@ footer .instagram {
   color: #f6f0f0;
   font-size: 20px;
   text-align: center;
-  border-style: solid;
 }
 
 * {
