@@ -23,10 +23,14 @@ header .item:hover {
   transform: scale(1.1);
 }
 
+.main-index {
+  padding: 0 !important;
+}
+
 .intro {
   background-color: #8C796D;
   width: 100% !important;
-  margin: 0 !important;
+  margin: 0;
 }
 .intro .carouselBorde {
   padding-top: 30px !important;
@@ -37,6 +41,10 @@ header .item:hover {
 
 .texto-home {
   color: #f6f0f0;
+  -webkit-margin-start: 2em;
+          margin-inline-start: 2em;
+  -webkit-margin-end: 2em;
+          margin-inline-end: 2em;
 }
 .texto-home .titulo-home {
   margin-bottom: 2em;
@@ -57,9 +65,12 @@ header .item:hover {
   background-size: cover;
   height: 800px;
   background-attachment: fixed;
+  margin: 0;
 }
 .intro2 .cuestionario {
   color: #f6f0f0;
+  display: inline;
+  align-self: center;
 }
 .intro2 .cuestionario .titulo-cuestionario {
   font-size: 4em;
@@ -67,13 +78,73 @@ header .item:hover {
 .intro2 .cuestionario .texto-cuestionario {
   font-size: 2.5em;
 }
+.intro2 .link-cuestionario {
+  display: inline;
+  align-self: flex-end;
+  margin-bottom: 2em;
+  font-size: 5em;
+  color: #f6f0f0;
+  background-color: rgba(35, 36, 38, 0.5843137255);
+  -webkit-margin-start: 2em;
+          margin-inline-start: 2em;
+  -webkit-margin-end: 2em;
+          margin-inline-end: 2em;
+}
+.intro2 .enlace {
+  text-decoration: none;
+  color: #f6f0f0;
+}
+.intro2 .link-cuestionario:hover {
+  transform: scale(1.03);
+}
 
 .biografia {
   background-color: #474141;
+  height: 900px;
+}
+.biografia .sobreMi {
+  display: inline;
+  align-self: center;
+  color: #f6f0f0;
+}
+.biografia .sobreMi .titulo-sobremi {
+  font-size: 4em;
+  margin-bottom: 1em;
+}
+.biografia .sobreMi .texto-sobremi {
+  font-size: 1.4em;
+  -webkit-margin-start: 2em;
+          margin-inline-start: 2em;
+  -webkit-margin-end: 2em;
+          margin-inline-end: 2em;
+}
+.biografia .img-sobremi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.biografia .img-sobremi .dani-sobremi {
+  height: 700px;
+  box-shadow: 0 0 15px 7px rgba(253, 242, 248, 0.415);
+}
+
+.section-collage .img-collage {
+  width: 50em;
+}
+.section-collage .fraseKarl {
+  display: inline;
+  align-self: center;
+  margin: 0;
 }
 
 .divUno {
   background-color: #232426;
+}
+.divUno .botonCuestionario {
+  padding: 10px;
+  border: 3px solid #f6f0f0;
+  border-radius: 10px;
+  background-color: rgba(140, 121, 109, 0.6980392157);
 }
 
 .divDos {
@@ -110,7 +181,41 @@ header .item:hover {
   margin: 0 auto;
 }
 .mainModa .carousel-item:hover {
-  transform: scale(1.25);
+  transform: scale(1.1);
+}
+
+.seccionContacto {
+  background-image: url("../img/tela-blanca.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  background-attachment: fixed;
+}
+.seccionContacto .contactoBox {
+  display: inline-block;
+  width: 30%;
+  height: 50%;
+  background-color: rgba(20, 19, 19, 0.6745098039);
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.seccionContacto .contactoBox .formulario {
+  font-size: 1em;
+  color: #fdf4f4;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.seccionContacto .contactoBox .formulario .boton {
+  padding: 10px;
+  border: 3px solid #0b0a0a;
+  border-radius: 10px;
+  background-color: rgba(110, 60, 68, 0.678);
 }
 
 footer {

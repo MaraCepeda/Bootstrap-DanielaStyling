@@ -1,9 +1,13 @@
-// main index
+                        // main index
+
+.main-index{
+    padding: 0 !important;
+}
 
 .intro{
-    background-color: $background-main;
+    background-color: map-get($estilos, colorPrimario);
     width: 100% !important;
-    margin: 0 !important;
+    margin: 0;
 
     .carouselBorde{
         padding-top: 30px !important;
@@ -17,6 +21,8 @@
 
 .texto-home{
     color: $font-white;
+    margin-inline-start: 2em;
+    margin-inline-end: 2em;
 
     .titulo-home{
         margin-bottom: 2em;
@@ -41,9 +47,12 @@
     background-size: cover;
     height: 800px;
     background-attachment: fixed;
+    margin: 0;
 
     .cuestionario{
         color: $font-white;
+        display: inline;
+        align-self: center;
         
         .titulo-cuestionario{
             font-size: 4em;
@@ -53,19 +62,85 @@
             font-size: 2.5em;
         }
     }
+
+    .link-cuestionario{
+        display: inline;
+        align-self: flex-end;
+        margin-bottom: 2em;
+        font-size: 5em;
+        color: $font-white;
+        background-color: #23242695; 
+        margin-inline-start: 2em;
+        margin-inline-end: 2em;
+    }
+
+    .enlace{
+        text-decoration: none;
+        color: $font-white;
+    }
+
+    .link-cuestionario:hover{
+        transform: scale(1.03);
+    }
 }
 
-// main sobre mi
+                        // main sobre mi
 
 .biografia{
-    background-color: #474141;
+    background-color: map-get($estilos, colorSecundario);
+    height: 900px;
+
+    .sobreMi{
+        display: inline;
+        align-self: center;
+        color: $font-white;
+
+        .titulo-sobremi{
+            font-size: 4em;
+            margin-bottom: 1em;
+        }
+
+        .texto-sobremi{
+            font-size: 1.4em;
+            margin-inline-start: 2em;
+            margin-inline-end: 2em;
+        }
+    }
+
+    .img-sobremi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .dani-sobremi{
+            height: 700px;
+            box-shadow: 0 0 15px 7px rgba(253, 242, 248, 0.415);
+        }
+    }
 }
 
-// main cuestionario
+.section-collage{
+    .img-collage{
+        width: 50em;
+    }
+
+    .fraseKarl{
+        display: inline;
+        align-self: center;
+        margin: 0;
+    }
+}
+
+
+                        // main cuestionario
 
 .divUno {
     @extend %divsCuestionario;
     background-color: #232426;
+
+    .botonCuestionario{
+        @include botones($font-white, #8c796db2);
+    }
 }
 
 .divDos {
@@ -73,10 +148,10 @@
     background-color: #8C796D;
 }
 
-// main servicios
+                        // main servicios
 
 .servicios{
-    background-color: #232426;
+    background-color: map-get($estilos, colorTerciario);
 
     .tarjeta{
         display: flex;
@@ -93,10 +168,11 @@
 }
 
 
-// main moda
+
+                        // main moda
 
 .mainModa{
-    background-color: #232426;
+    background-color: map-get($estilos, colorTerciario);
 
     .titulos{
         display: flex !important;
@@ -113,6 +189,47 @@
     }
     
     .carousel-item:hover{
-        transform:scale(1.25);
+        transform:scale(1.10);
     }
 }
+
+                        // main contacto
+
+.seccionContacto{
+    background-image: url("../img/tela-blanca.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+
+    .contactoBox{
+        display: inline-block;
+        width: 30%;
+        height: 50%;
+        background-color: #141313ac;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+
+        .formulario{
+            font-size: 1em;
+            color: #fdf4f4;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            .boton{
+                @include botones ($font-black, rgba(110, 60, 68, 0.678)) ;
+            }
+        } 
+    }
+}                        
+                       
+                        
+                        
+                        
+                                             
