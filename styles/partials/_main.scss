@@ -134,19 +134,41 @@
 
                         // main cuestionario
 
-.divUno {
-    @extend %divsCuestionario;
-    background-color: #232426;
+.mainCuestionario{
 
-    .botonCuestionario{
-        @include botones($font-white, #8c796db2);
+    .sectionCuestionario{
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    background-color: #D9C2AD;
+
+    .divUno {
+        @extend %divsCuestionario;
+        background-color: #232426;
+        transition: transform .2s;
+    
+        .botonCuestionario{
+            @include botones($font-white, #8c796db2);
+        }
+    }
+
+    .divUno:hover{
+        transform: scale(1.05);
+    }
+    
+    .divDos {
+        @extend %divsCuestionario;
+        background-color: #8C796D;
+        transition: transform .2s;
+    }
+
+    .divDos:hover{
+        transform: scale(1.05);
     }
 }
+                        
 
-.divDos {
-    @extend %divsCuestionario;
-    background-color: #8C796D;
-}
 
                         // main servicios
 
@@ -190,6 +212,14 @@
     
     .carousel-item:hover{
         transform:scale(1.10);
+    }
+
+    .carousel-control-prev {
+        margin-left: 30em;
+    }
+
+    .carousel-control-next{
+        margin-right: 30em;
     }
 }
 
