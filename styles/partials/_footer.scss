@@ -2,6 +2,11 @@ footer{
     color: $font-white;
     background-color: $background-footer;
     font-size: x-large;
+
+    .whatsapp-instagram{
+        display: flex;
+        justify-content: space-between;
+    }
     .celular{
         display: flex;
     justify-content: center;
@@ -40,3 +45,4 @@ footer{
 
 
 }
+
