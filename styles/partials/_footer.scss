@@ -6,8 +6,7 @@ footer{
 
     .whatsapp-instagram{
         display: flex;
-        justify-content: space-evenly;
-        
+        justify-content: space-evenly;        
     }
     .celular{
         max-width: 30px;
@@ -15,8 +14,7 @@ footer{
     text-decoration: none;
 
     .whatsapp{
-        display: flex;
-        justify-content: center;
+        
         font-size: 2em;
         color: $font-white;
     }
@@ -25,8 +23,7 @@ footer{
     }
     }
     .instagram{
-        display: flex;
-        justify-content: center;
+       
         max-width: 30px;
         text-decoration: none;
        

@@ -256,8 +256,6 @@ footer .celular {
   text-decoration: none;
 }
 footer .celular .whatsapp {
-  display: flex;
-  justify-content: center;
   font-size: 2em;
   color: #f6f0f0;
 }
@@ -265,8 +263,6 @@ footer .celular .whatsapp:hover {
   color: #0b0a0a;
 }
 footer .instagram {
-  display: flex;
-  justify-content: center;
   max-width: 30px;
   text-decoration: none;
 }
